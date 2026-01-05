@@ -1,92 +1,48 @@
-\# Governance Boundaries (Kernel Next)
+# Governance Boundaries (Kernel Next)
 
+This document defines the fixed boundaries for the kernel-next phase.
 
-
-This document defines the non-negotiable boundaries for the kernel-next phase.
-
-
-
-These boundaries exist to prevent scope creep, premature execution, and
-
-misinterpretation of intent.
-
-
+These boundaries are deliberate and restrictive. Their purpose is to ensure
+clarity, prevent premature execution, and preserve trust.
 
 ---
 
+## Absolute Exclusions
 
+The following must not exist in this repository:
 
-\## What Is Explicitly Out of Scope
+- Executable runtime code
+- Services or daemons
+- AI agents or autonomous logic
+- CI/CD pipelines
+- Deployment or infrastructure configuration
+- Telemetry, logging, or monitoring systems
+- User data schemas or handling logic
 
-
-
-\- Runtime code
-
-\- Background services
-
-\- AI agents
-
-\- Automation pipelines
-
-\- Deployment configuration
-
-\- Telemetry or monitoring
-
-\- User data handling
-
-
-
-If any of the above appear, this repository has failed its purpose.
-
-
+If any of the above appear, the kernel-next phase has been violated.
 
 ---
 
+## Permitted Content
 
+Only the following are allowed:
 
-\## What Is In Scope
-
-
-
-\- Intent definition
-
-\- Governance posture
-
-\- Structural planning
-
-\- Documentation-led design
-
-\- External readability
-
-
+- Intent statements
+- Governance definitions
+- Structural planning documents
+- Reading guides and context
+- Forward-looking but non-operational notes
 
 ---
 
+## Change Rules
 
+- All changes are explicit
+- All changes are reviewable
+- All content assumes public visibility
 
-\## Change Discipline
-
-
-
-All changes must:
-
-\- Be intentional
-
-\- Be reviewable
-
-\- Preserve public clarity
-
-
-
-No silent evolution is permitted.
-
-
+Silence, ambiguity, or hidden evolution is not acceptable.
 
 ---
-
-
 
 End of document.
-
-
-
