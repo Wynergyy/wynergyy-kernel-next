@@ -1,78 +1,41 @@
-\# Start Here
+# Start Here (Kernel Next)
 
+This repository defines the *next* public kernel for Wynergyy systems.
 
-
-This repository is the forward-looking continuation of the Wynergyy public kernel.
-
-
-
-It exists to define intent, direction, and governance boundaries before any
-
-technical implementation is introduced.
-
-
+It exists to stabilise intent, governance posture, and future structure
+before any implementation work begins.
 
 You are reading this early by design.
 
+---
 
+## Why This Exists
+
+- To prevent premature engineering
+- To lock intent before execution
+- To remain externally readable and auditable
+- To evolve deliberately, not reactively
 
 ---
 
+## How This Repo Should Be Used
 
-
-\## What This Repository Is
-
-
-
-\- A kernel-level planning space
-
-\- Documentation-first
-
-\- Governance-led
-
-\- Externally readable
-
-
+- Read documentation first
+- Assume all content is public
+- Expect structure before code
+- Expect change, but not volatility
 
 ---
 
+## What Comes Later
 
+Only after this kernel is stable will:
+- Runtime systems be designed
+- Automation be introduced
+- Deployments be considered
 
-\## What This Repository Is Not
-
-
-
-\- An application
-
-\- A framework
-
-\- A deployment target
-
-\- An automation system
-
-
+None of that happens here yet.
 
 ---
-
-
-
-\## How to Use This Repository
-
-
-
-\- Read documents top-down
-
-\- Assume all content is public
-
-\- Expect evolution without volatility
-
-
-
----
-
-
 
 End of document.
-
-
-
