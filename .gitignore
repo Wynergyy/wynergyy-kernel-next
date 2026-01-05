@@ -1,0 +1,14 @@
+# Node / tooling
+node_modules/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Runtime artefacts
+dist/
+build/
+.cache/
